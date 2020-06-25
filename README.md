@@ -21,7 +21,7 @@ An application developed for Bilgi University would be mobile friendly and thus 
 ## Tips
 I uploaded pdf of project report. You can see all detail of project as Introduction,Methodology, Research, Coding, Conclusion.
 https://drive.google.com/open?id=1cbUV54T0QzJU5Pl--1S89sU73yBX9BwH ; This is the apk link. You can just download my app in android phones and try my app.
-You can login as administrator. Required IDs are below. PW for all IDs is 123456.
+You can login as administrator. Required IDs are below. PW for all IDs is '123456'.
 IDs: BKFK, BilgiUNIGFB, EGK, TFK
 
 
