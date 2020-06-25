@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "166969738154",
+    "firebase_url": "https://uclup-8b515.firebaseio.com",
+    "project_id": "uclup-8b515",
+    "storage_bucket": "uclup-8b515.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166969738154:android:985784b9cba06465c3a1d3",
+        "android_client_info": {
+          "package_name": "com.apps.uclup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166969738154-aiju0n305d7smg49jbf3liu3e7jq3f5n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.apps.uclup",
+            "certificate_hash": "e16825a8807f597f96d3389fa69f4f693fc8c4b4"
+          }
+        },
+        {
+          "client_id": "166969738154-31ph7bcm8egfc62es25f3hshcmmh99op.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4H0_Epd9ENiH4Jg4LmPp7Z8OL0hAp4HA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166969738154-31ph7bcm8egfc62es25f3hshcmmh99op.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

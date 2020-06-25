@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".activity.EditProfileActivity">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="45dp"
+        app:civ_border_color="#E4E4E4"
+        app:civ_border_width="2dp" />
+
+
+    <EditText
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_image"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="-61dp"
+        android:layout_toEndOf="@+id/profile_image"
+        android:background="@color/colorWhite"
+        android:hint="Adınız Soyadınız"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/profile_image" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt1"
+        android:layout_alignStart="@+id/txt1"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/varela"
+        android:hint="Mail Adresiniz"
+        android:textSize="13sp"
+        android:layout_alignLeft="@+id/txt1" />
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_below="@id/profile_image"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#43000000"/>
+
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/view"
+        android:layout_margin="20dp"
+        android:background="@drawable/ic_phone" />
+
+
+    <EditText
+        android:id="@+id/txt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/img1"
+        android:layout_toEndOf="@+id/img1"
+        android:fontFamily="@font/varela"
+        android:background="@color/colorWhite"
+        android:hint="Telefon Numaranız"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:layout_toRightOf="@+id/img1" />
+
+
+    <View
+        android:id="@+id/view2"
+        android:layout_below="@id/img1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#43000000"/>
+
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/view2"
+        android:layout_margin="20dp"
+        android:background="@drawable/ic_education" />
+
+
+    <EditText
+        android:id="@+id/txt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/img2"
+        android:layout_toEndOf="@+id/img2"
+        android:background="@color/colorWhite"
+        android:fontFamily="@font/varela"
+        android:hint="Bölümünüz"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:layout_toRightOf="@+id/img2" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_below="@id/img2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#43000000"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/save"
+        android:layout_width="200dp"
+        android:layout_height="44dp"
+        android:layout_alignTop="@+id/view3"
+        android:layout_centerHorizontal="true"
+        android:background="#DF5B5E"
+        android:layout_marginTop="40dp"
+        android:text="Profili Düzenle"
+        android:textColor="@color/colorWhite" />
+
+
+</RelativeLayout>

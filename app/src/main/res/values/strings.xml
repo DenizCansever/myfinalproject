@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">UClub</string>
+    <string name="label_admin">Yönetici Paneli</string>
+    <string name="action_settings">Settings</string>
+</resources>

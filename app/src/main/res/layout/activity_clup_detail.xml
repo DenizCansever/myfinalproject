@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".activity.ClupDetailActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#E4E4E4"/>
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/ic_back"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profile_image"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="sadasdsa"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/varela" />
+
+        <TextView
+            android:id="@+id/tv_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="sadasdsa"
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp"
+            app:fontFamily="@font/varela" />
+
+        <TextView
+            android:id="@+id/tv_dest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_subtitle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="sadasdsa"
+            android:textSize="12sp"
+            app:fontFamily="@font/varela" />
+
+        <LinearLayout
+            android:id="@+id/lnr_social"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="#F1F1F1"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/tv_dest"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/img_facebook"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:background="@drawable/ic_facebook"/>
+
+            <ImageView
+                android:id="@+id/img_insta"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/ic_insta"/>
+
+            <ImageView
+                android:id="@+id/img_whatsapp"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/ic_whatsapp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_title2"
+            android:layout_below="@id/lnr_social"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="Etkinlikleri"
+            app:fontFamily="@font/varela"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/tv_title2"
+            android:paddingBottom="60dp"
+            android:id="@+id/recyclerView"/>
+
+
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>
